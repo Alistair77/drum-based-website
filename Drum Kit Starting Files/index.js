@@ -79,6 +79,10 @@ console.log(buttonSelecte);
     var presse = document.querySelector("." + currentKey);
 
     presse.classList.add("pressed");
+    
+    setTimeout(function (){
+      presse.classList.remove("pressed");
+    },100);
 
 
    }
